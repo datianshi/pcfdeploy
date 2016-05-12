@@ -1,0 +1,8 @@
+package: github.com/datianshi/pcfdeploy
+import:
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - aws
+  - aws/client
+  - service/cloudformation
+- package: gopkg.in/yaml.v1
